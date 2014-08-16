@@ -1,0 +1,10 @@
+int x = 3;
+
+void f() {
+    printf("%d\n", x);
+    int x = 4;
+    printf("%d\n", x);
+}
+
+f()
+printf("%d\n", x);
