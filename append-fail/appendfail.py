@@ -1,4 +1,8 @@
 # Copyright © 2014 Bart Massey
+# [This program is licensed under the "MIT License"]
+# Please see the file COPYING in the source
+# distribution of this software for license terms.
+
 # The += operator on lists appends the a copy of the
 # right-hand operand to the left-hand operand. This
 # makes z += y different from z = z + y
