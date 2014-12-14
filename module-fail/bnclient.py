@@ -3,8 +3,9 @@
 # Please see the file COPYING in the source
 # distribution of this software for license terms.
 
+import badname
 from badname import badname, x
 
-x = 1
+badname.x = 1
 
-badname()
+badname.badname()
