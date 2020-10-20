@@ -17,8 +17,8 @@ constructive critique.
 In no particular order:
 
 * append-fail: The choice of `+=` as an append operator causes confusion.
-* expr-fail: Implicit coercions between bool and int combine
-  badly with odd precedence rules. 
+* expr-fail: Implicit conversions between boolean and
+  integer values combine badly with odd precedence rules. 
 * module-fail: Module variable scope rules are confusing, and
   the existence of function attributes makes them worse.
 * nil-fail: The empty list is an lvalue, with odd consequences.
