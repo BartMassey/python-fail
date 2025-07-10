@@ -37,6 +37,6 @@ check(12, 1 + (not not 3), 2)
 # "and" and "or" don't autoconvert their arguments, but
 # just preserve them.
 check(13, 3 and 4, 4)
-check(14, 4 and 3, 3)
+check(14, 4 or 3, 4)
 # But "not" has to autoconvert.
 check(15, 3 and not not 4, True)
