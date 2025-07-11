@@ -26,6 +26,8 @@ In no particular order:
   (or even shallow copy) its prototype, inhibiting 2D array creation.
 * scope-fail: Adding an assignment to a Python program can
   change the scoping of its variables in surprising ways.
+* tuple-fail: A tuple is surprisingly unequal to a list
+  with the same elements.
 
 This work is licensed under the "MIT License".  Please see
 the file COPYING in the source distribution of this software
